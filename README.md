@@ -1,3 +1,42 @@
+Burnout Among Physicians: Secondary Analysis of Public Data
+Research Question
+
+Which workplace and personal factors are linked with severe burnout in physicians?
+
+Data Source
+
+Public dataset of 1,434 Bangladeshi physicians from 62 hospitals, collected between 2019 and 2021.
+
+Dataset citation:
+
+Rizwan, F. (2025). Burnout_Risks_Bangladeshi_Physicians_Survey_2019_2021. Mendeley Data, V3.
+
+DOI: https://doi.org/10.17632/3d7h58d4k3.3
+
+Licence: CC BY 4.0.
+
+Original study:
+
+Rizwan F, et al. Burnout risks in Bangladeshi physicians: a multicenter, cross-sectional study. Heliyon. 2023;9:e22386.
+
+Important Note: I did not collect this data. This project is a secondary analysis of publicly available survey data.
+
+To run the code, download the dataset from the DOI above and place it in the project folder with the following filename:
+
+Raw_Data_DIB__1_.xlsx
+
+Methods
+Outcome: Burnout level (five categories).
+Main outcome definition: Severe or very severe burnout versus all lower burnout levels.
+Category labels: Follow the data paper (Table 1). Sparse categories were merged for modelling.
+Chi-square tests: Used to examine associations between each factor and burnout level.
+Multivariable logistic regression: Used to identify factors associated with severe or very severe burnout, reporting adjusted odds ratios.
+Ordinal logistic regression: Used as a sensitivity analysis across all five burnout levels.
+Tools and Technologies
+Python
+pandas
+SciPy
+statsmodels
 Key Results
 Burnout Prevalence
 25.7% of physicians (368 of 1,434) had severe or very severe burnout.
