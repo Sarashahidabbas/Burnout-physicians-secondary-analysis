@@ -1,0 +1,85 @@
+N = 1434
+High burnout (severe or very severe) = 368 (25.7%)
+Logistic model: pseudo R2 (McFadden) = 0.038, AIC = 1614.7, AUC = 0.636
+
+      Burn_label   n    %
+         No sign  36  2.5
+     Little sign 316 22.0
+    Initial risk 714 49.8
+     Severe risk 300 20.9
+Very severe risk  68  4.7
+
+BIVARIATE
+             Variable  chi2  df  p_chi2_5levels  p_chi2_high_vs_not
+    Private_Practice  34.8  12          0.0005              0.0004
+         Flexibility  24.2   4          0.0001              0.0004
+       Working_Place  28.8   8          0.0003              0.0006
+        Working_Hour  53.2  20          0.0001              0.0056
+     Dissatisfaction  43.4  28          0.0316              0.0073
+ Mental_Disturbances  66.0  32          0.0004              0.0111
+              Income  31.0  20          0.0548              0.0157
+      Marital_Status  15.0  12          0.2399              0.0310
+            Conflict  28.2  12          0.0051              0.0310
+     Weekly_Vacation   8.7   4          0.0693              0.0324
+            Age_code  25.0  16          0.0694              0.0908
+      Specialization 126.5  80          0.0007              0.1673
+              Gender   9.1   4          0.0590              0.2287
+            Politics   3.2   4          0.5286              0.3018
+            Duration  21.7  16          0.1531              0.3064
+    Family_Functions   4.2   8          0.8403              0.3135
+      Family_members   9.2   4          0.0571              0.3298
+         Designation  74.1  44          0.0030              0.3664
+         Liabilities   2.0   4          0.7403              0.3693
+                 BMI   8.7  12          0.7313              0.4323
+            Feelings  15.4  20          0.7502              0.4394
+ Disappointing_Thing  41.9  32          0.1128              0.7732
+ Staying_with_Family  11.0   4          0.0265              0.8331
+Vacation_with_Family   2.8   8          0.9471              0.9879
+
+LOGISTIC (high burnout)
+                                                     OR  CI_low  CI_high      p
+age: 30-39 (vs 20-29)                            1.113   0.725    1.709  0.625
+age: 40-49 (vs 20-29)                            0.889   0.558    1.418  0.622
+age: 50+ (vs 20-29)                              0.949   0.560    1.610  0.847
+bmi: Obese (vs Normal/under)                     1.038   0.663    1.625  0.871
+bmi: Overweight (vs Normal/under)                0.919   0.704    1.199  0.535
+private_practice: Both (vs None)                 1.171   0.695    1.975  0.553
+private_practice: Inside/outside only (vs None)  0.777   0.573    1.052  0.103
+hours: 10 (vs <=6)                               0.772   0.527    1.130  0.183
+hours: 12+ (vs <=6)                              1.205   0.818    1.777  0.346
+hours: 8 (vs <=6)                                1.396   0.996    1.956  0.052
+conflict: Both (vs None)                         1.584   1.144    2.193  0.006
+conflict: Co-workers (vs None)                   1.645   1.188    2.278  0.003
+conflict: Family (vs None)                       1.530   0.972    2.408  0.066
+female                                           1.117   0.860    1.452  0.407
+nongovt                                          1.566   1.149    2.134  0.005
+no_vacation                                      1.204   0.823    1.763  0.339
+married                                          0.824   0.556    1.223  0.337
+liabilities                                      1.039   0.788    1.370  0.788
+not_with_family                                  0.913   0.569    1.464  0.705
+politics_worry                                   0.976   0.735    1.297  0.868
+others_flexible                                  0.665   0.489    0.904  0.009
+
+ORDINAL
+                                          OR  CI_low  CI_high      p
+female                                1.210   0.980    1.494  0.077
+nongovt                               1.685   1.294    2.192  0.000
+no_vacation                           1.266   0.929    1.726  0.136
+married                               0.878   0.629    1.225  0.445
+liabilities                           1.000   0.798    1.252  0.997
+not_with_family                       0.708   0.477    1.051  0.087
+politics_worry                        1.076   0.855    1.354  0.535
+others_flexible                       0.767   0.591    0.996  0.046
+age_30-39                             0.917   0.641    1.311  0.635
+age_40-49                             0.733   0.499    1.075  0.112
+age_50+                               0.863   0.562    1.325  0.500
+bmi_Obese                             1.190   0.833    1.700  0.340
+bmi_Overweight                        1.001   0.808    1.239  0.996
+private_practice_Both                 1.131   0.724    1.767  0.588
+private_practice_Inside/outside only  0.811   0.633    1.040  0.098
+hours_10                              0.711   0.534    0.946  0.019
+hours_12+                             0.996   0.728    1.362  0.978
+hours_8                               1.098   0.838    1.438  0.499
+conflict_Both                         1.726   1.338    2.226  0.000
+conflict_Co-workers                   1.612   1.241    2.093  0.000
+conflict_Family                       1.730   1.189    2.515  0.004

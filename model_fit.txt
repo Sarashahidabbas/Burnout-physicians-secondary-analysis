@@ -1,0 +1,3 @@
+N = 1434
+High burnout (severe or very severe) = 368 (25.7%)
+Logistic model: pseudo R2 (McFadden) = 0.038, AIC = 1614.7, AUC = 0.636

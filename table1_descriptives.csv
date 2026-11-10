@@ -1,0 +1,56 @@
+Variable,Category,n,%
+Gender,Male,866,60.4
+Gender,Female,568,39.6
+Age_code,20-29,212,14.8
+Age_code,30-39,450,31.4
+Age_code,40-49,529,36.9
+Age_code,50-59,218,15.2
+Age_code,60-69,25,1.7
+BMI,Underweight,28,2.0
+BMI,Normal,560,39.1
+BMI,Overweight,716,49.9
+BMI,Obese,130,9.1
+Working_Place,Government hospital,1146,79.9
+Working_Place,Non-government hospital,273,19.0
+Working_Place,Clinic,15,1.0
+Duration,<1 y,54,3.8
+Duration,1-3 y,219,15.3
+Duration,3-5 y,230,16.0
+Duration,5-10 y,322,22.5
+Duration,>10 y,609,42.5
+Private_Practice,Inside city,631,44.0
+Private_Practice,Outside city,118,8.2
+Private_Practice,None,531,37.0
+Private_Practice,Inside and outside city,154,10.7
+Working_Hour,Up to 6 h,397,27.7
+Working_Hour,Up to 8 h,392,27.3
+Working_Hour,Up to 10 h,357,24.9
+Working_Hour,Up to 12 h,255,17.8
+Working_Hour,Up to 14 h,12,0.8
+Working_Hour,>14 h,21,1.5
+Weekly_Vacation,Yes,1159,80.8
+Weekly_Vacation,No,275,19.2
+Marital_Status,Single,196,13.7
+Marital_Status,Married,1222,85.2
+Marital_Status,Divorced,12,0.8
+Marital_Status,Widowed,4,0.3
+Liabilities,Yes,972,67.8
+Liabilities,No,462,32.2
+Staying_with_Family,Yes,1315,91.7
+Staying_with_Family,No,119,8.3
+Conflict,Co-workers,368,25.7
+Conflict,Family,128,8.9
+Conflict,Both,405,28.2
+Conflict,None,533,37.2
+Politics,Worried,953,66.5
+Politics,Not worried,481,33.5
+Flexibility,Others more flexible,1057,73.7
+Flexibility,Not,377,26.3
+Dissatisfaction,Anxiety,580,40.4
+Dissatisfaction,Fatigue,304,21.2
+Dissatisfaction,Insomnia,125,8.7
+Dissatisfaction,Agitation,71,5.0
+Dissatisfaction,Depression,216,15.1
+Dissatisfaction,Anxiety+depression,63,4.4
+Dissatisfaction,Fatigue+insomnia,74,5.2
+Dissatisfaction,None,1,0.1

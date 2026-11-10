@@ -1,0 +1,22 @@
+,OR,CI_low,CI_high,p
+age: 30-39 (vs 20-29),1.113,0.725,1.709,0.625
+age: 40-49 (vs 20-29),0.889,0.558,1.418,0.622
+age: 50+ (vs 20-29),0.949,0.56,1.61,0.847
+bmi: Obese (vs Normal/under),1.038,0.663,1.625,0.871
+bmi: Overweight (vs Normal/under),0.919,0.704,1.199,0.535
+private_practice: Both (vs None),1.171,0.695,1.975,0.553
+private_practice: Inside/outside only (vs None),0.777,0.573,1.052,0.103
+hours: 10 (vs <=6),0.772,0.527,1.13,0.183
+hours: 12+ (vs <=6),1.205,0.818,1.777,0.346
+hours: 8 (vs <=6),1.396,0.996,1.956,0.052
+conflict: Both (vs None),1.584,1.144,2.193,0.006
+conflict: Co-workers (vs None),1.645,1.188,2.278,0.003
+conflict: Family (vs None),1.53,0.972,2.408,0.066
+female,1.117,0.86,1.452,0.407
+nongovt,1.566,1.149,2.134,0.005
+no_vacation,1.204,0.823,1.763,0.339
+married,0.824,0.556,1.223,0.337
+liabilities,1.039,0.788,1.37,0.788
+not_with_family,0.913,0.569,1.464,0.705
+politics_worry,0.976,0.735,1.297,0.868
+others_flexible,0.665,0.489,0.904,0.009
