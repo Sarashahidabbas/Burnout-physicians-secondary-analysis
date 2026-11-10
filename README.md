@@ -34,14 +34,15 @@ I did not collect this data. This is a secondary analysis. To run the code, down
 - Data come mostly from hospitals in Dhaka, so results may not apply to other settings.
 - Some categories are small, so estimates for them are unstable.
 - Several results differ from the original paper. See the note below.
-
+  
 ## Note on differences from the original paper
-The paper reports very large odds ratios (for example above 500) and says government hospital doctors are more burnt out. In the data, severe burnout is higher in non-government hospitals (about 29% versus 19% in government hospitals), and my model agrees with the data. The very large odds ratios in the paper are likely due to sparse categories. I merged sparse categories to avoid this. The raw file also has small count differences from the paper's tables, for example 866 male and 568 female physicians against 860 and 574 in the paper.
+The paper reports very large odds ratios (for example above 500) and says government hospital doctors are more burnt out. In the data, severe or very severe burnout is higher in non-government hospitals and clinics (about 34% versus 24% in government hospitals), and my model agrees with the data. The very large odds ratios in the paper are likely due to sparse categories. I merged sparse categories to avoid this. The raw file also has small count differences from the paper's tables, for example 866 male and 568 female physicians against 860 and 574 in the paper.
 
 ## Files
 - `analysis.py`: full analysis code
-- `results/`: tables as CSV files
-- `figures/`: charts
+- `table1` to `table4` CSV files: results tables
+- `fig1` to `fig5` PNG files: charts
+- `model_fit.txt` and `console_output.txt`: model summaries
 
 ## Author
 Sara Shahid Abbas, BDS, MSHCM
