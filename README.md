@@ -1,9 +1,9 @@
-Burnout Among Physicians: Secondary Analysis of Public Data
-Research Question
+# Burnout Among Physicians: Secondary Analysis of Public Data
+## Research Question
 
 Which workplace and personal factors are linked with severe burnout in physicians?
 
-Data Source
+### Data Source
 
 Public dataset of 1,434 Bangladeshi physicians from 62 hospitals, collected between 2019 and 2021.
 
@@ -25,7 +25,7 @@ To run the code, download the dataset from the DOI above and place it in the pro
 
 Raw_Data_DIB__1_.xlsx
 
-Methods
+## Methods
 Outcome: Burnout level (five categories).
 Main outcome definition: Severe or very severe burnout versus all lower burnout levels.
 Category labels: Follow the data paper (Table 1). Sparse categories were merged for modelling.
@@ -57,7 +57,7 @@ Gender, age, BMI, private practice, vacation, marital status, liabilities, and l
 
 The ordinal logistic regression model showed the same direction of associations for interpersonal conflict, workplace type, and perceived professional flexibility.
 
-Limitations
+## Limitations
 The cross-sectional study design means that the findings represent associations and cannot establish causal relationships.
 Burnout level was based on a self-scored questionnaire total. Item-level scores were unavailable, so burnout subscale analysis and moderation analysis were not possible.
 The model explained relatively little variation (McFadden pseudo R² = 0.04; AUC = 0.64).
@@ -77,7 +77,7 @@ Additionally, small differences were identified between the raw dataset and the 
 
 These differences are documented to maintain transparency and reproducibility.
 
-Project Files
+### Project Files
 analysis.py – Complete Python analysis code.
 table1.csv to table4.csv – Statistical results tables.
 fig1.png to fig5.png – Data visualisations and charts.
